@@ -1,0 +1,135 @@
+{
+  "version": "0.1.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 117,
+      "sha256": "8207da9100fc9ebf00163b28cf00ddc9b63667a195d22070f224350be0caf543"
+    },
+    {
+      "path": ".npmrc",
+      "bytes": 71,
+      "sha256": "ac4e6d96d77c08d5fd21bc32149edef105a7481e836ef2d4cf25184730e88acd"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 523,
+      "sha256": "d6314aacfe237724a7a7c30bec311a2cb7a294d71a3f31c11d56bae36ad29989"
+    },
+    {
+      "path": "DEPENDENCY_REVIEW.md",
+      "bytes": 1498,
+      "sha256": "f6a5cbbdd83f4998bff90812c9a0a1f4c33dffe13047c2993c6dad78c29e245c"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1112,
+      "sha256": "33091271913aa9e82ac1d456c5f67ab24b30d925418ee668f2be6fd5e4e52d25"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2860,
+      "sha256": "727756d2867564ce3b56747b073bfcc45977ce3154ad4a8f42ce842f2d99e4b6"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 726,
+      "sha256": "6766ebb722a3f71824216122405b724838ababfe56dc6509503d86289bdc3ee4"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 834,
+      "sha256": "27a4e7a9ef356fb796ddf6935c25f1f1989aed9908bb4fd5381f8fa30576ebd5"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1709,
+      "sha256": "54abad67ecdf9b7499fd5039b90589f71364be78a40995159783308cc8d9bc1d"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 189320,
+      "sha256": "b6cc6c8d842f6e94113778ac391a081fdb787f8af07aaff9cc9a465e03aa4163"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "bytes": 1067,
+      "sha256": "a1a3408ebab92c2f7a7083505c7503353dff43e376f19af655f02219035ba125"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 400,
+      "sha256": "10224e1e979d36e358d13d9d599c1e7638b07030b7291b1f5ed2258860ee807e"
+    },
+    {
+      "path": "src/amounts.ts",
+      "bytes": 1230,
+      "sha256": "f34aa2d3706fdfc4f2337958314b99ae172f3499d0230d51fb755d3c109a86d5"
+    },
+    {
+      "path": "src/engine.ts",
+      "bytes": 17830,
+      "sha256": "5fe6f79390b2328a377ee50779a1510247b4e3f7e6fc42ae653c72f82af62188"
+    },
+    {
+      "path": "src/globals.ts",
+      "bytes": 488,
+      "sha256": "434f80ed2a3a4bd20fffb68ef17266d4f1306e8a918f5c700eb58fd6d670b257"
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 266,
+      "sha256": "147b1955a6e3a53512e0b305b5889b1c50c9a509f176084f6efc38f5dfa87c36"
+    },
+    {
+      "path": "src/network.ts",
+      "bytes": 1751,
+      "sha256": "1591690112d6843bb10ee609ea27fc0d672f8be08454f5b56b1383085c221bdd"
+    },
+    {
+      "path": "src/origin-withdrawal.test.ts",
+      "bytes": 2092,
+      "sha256": "a1a73ea74d32be0b87bd5085471eaadfb952285f40ffb874179f3b321aa1c884"
+    },
+    {
+      "path": "src/origin-withdrawal.ts",
+      "bytes": 1504,
+      "sha256": "dea1092c00b87a52b1a9d482b27e29a48d2f99c13db16ac98859c2759a25cecc"
+    },
+    {
+      "path": "src/railgun.test.ts",
+      "bytes": 4677,
+      "sha256": "d53ce473975699a158acb1c38222247a81a89adbef49b21f70dffe4bc7a87d01"
+    },
+    {
+      "path": "src/recipients.ts",
+      "bytes": 3067,
+      "sha256": "0508329fd21dd04a7f614f65a1300be0f09379889e844e0aebefa53e1c481b57"
+    },
+    {
+      "path": "src/scan-deadline.test.ts",
+      "bytes": 951,
+      "sha256": "92dadd204c75dd0c0759a0bcb4eae6f2867e798158dfde648e41bde904646319"
+    },
+    {
+      "path": "src/scan-deadline.ts",
+      "bytes": 672,
+      "sha256": "97af07bd4d59ae21f8e3515c5e136f604f83945266308c514ec7b0239871bfa9"
+    },
+    {
+      "path": "src/scan-progress.test.ts",
+      "bytes": 1299,
+      "sha256": "e67ddb119b8df18852c577b3f78f0aba7ca6eed9db046570cc743e40a2b30abd"
+    },
+    {
+      "path": "src/scan-progress.ts",
+      "bytes": 738,
+      "sha256": "b921837b4bb3b3e853228cae09092b449d7a8cc15a2f4df8269513f7dcf77f34"
+    },
+    {
+      "path": "src/types/snarkjs.d.ts",
+      "bytes": 154,
+      "sha256": "2c238db8a95eaddc474cbb963ee74390bef02d16aeeb69871108f7a1d34d880c"
+    }
+  ]
+}

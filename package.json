@@ -1,0 +1,68 @@
+{
+  "name": "@silentquery/railgun",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "packageManager": "pnpm@11.11.0",
+  "description": "Typed RAILGUN integration for Ethereum USDC shielding, private payments, withdrawals and vault synchronization.",
+  "author": "SQL Cash <support@sql.cash>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sql-hq/railgun-sdk.git"
+  },
+  "homepage": "https://sql.cash",
+  "bugs": {
+    "url": "https://github.com/sql-hq/railgun-sdk/issues"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./engine": {
+      "types": "./dist/engine.d.ts",
+      "import": "./dist/engine.js"
+    },
+    "./globals": {
+      "types": "./dist/globals.d.ts",
+      "import": "./dist/globals.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "DEPENDENCY_REVIEW.md",
+    "pnpm-workspace.yaml"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --import tsx --test src/*.test.ts",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@railgun-community/engine": "9.9.1",
+    "@railgun-community/shared-models": "8.2.1",
+    "@railgun-community/wallet": "11.2.0",
+    "buffer": "6.0.3",
+    "ethers": "6.14.3",
+    "level-js": "6.1.0",
+    "memdown": "6.1.1",
+    "process": "0.11.10",
+    "snarkjs": "0.7.5",
+    "viem": "2.37.3"
+  },
+  "devDependencies": {
+    "@types/memdown": "3.0.5",
+    "tsx": "4.20.5",
+    "typescript": "5.9.3",
+    "@types/node": "22.19.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
